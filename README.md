@@ -1,6 +1,6 @@
 # HumbleUIMiniIDE
 A minimalistic integrated development environment for the Clojure programming language.
-This is a special edition of the [https://github.com/rururu/ClojureMiniIDE](https://github.com/rururu/ClojureMiniIDE) for the Clojure GUI library [https://github.com/HumbleUI/HumbleUI/tree/main](https://github.com/HumbleUI/HumbleUI/tree/main).
+This is a special edition of the [ClojureMiniIDE](https://github.com/rururu/ClojureMiniIDE) for the Clojure GUI library [HumbleUI](https://github.com/HumbleUI/HumbleUI/tree/main).
 
 ![screenshot](1.png)
 

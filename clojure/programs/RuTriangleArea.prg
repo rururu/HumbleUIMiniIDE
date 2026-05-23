@@ -1,3 +1,4 @@
 ;; RuTriangleArea.prg
-;; TriangleArea.prg
+ru.triar.logic
+ru.triar.gui
 ru.triar.core
