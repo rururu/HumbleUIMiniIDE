@@ -16,23 +16,15 @@ as this is essential for program operation.
 A special button is available for automatically loading a program.
 
 2. **Separate windows for functions and other program elements.** 
-This allows you to simultaneously edit multiple functions on the screen, from different namespaces, 
+This allows you to simultaneously edit multiple functions and other program elements on the screen, from different namespaces, 
 and only those needed at the moment. The automatic loading button simultaneously 
 composes ("builds") various namespaces from all open and possibly modified elements, 
 saves them, and loads them in the desired order.
 
 ## Usage
 
-Put into a some directory:
-
-- clojure folder,
-- lib folder,
-- Funcall_History.txt file,
-- ConstructPrefixces.txt file,
-- run.sh file.
-
 ```shell
-$ cd <some directory>
+$ cd <UumbleUIMiniIDE directory>
 $ ./run.sh       # Linux, MacOS
 $ run.bat        # Windows
 ```
@@ -47,11 +39,9 @@ add the corresponding prefixes to separate lines in this file.
 
 ## Video Lessons
 
-[Lesson 1. Creating of a program file structure](https://www.youtube.com/watch?v=vPH-KzR2LiI)
+[Lesson 1. HumbleUI Examples](https://www.youtube.com/watch?v=aVcTWrnw5Wg)
 
 [Lesson 2. Writing  a program](https://www.youtube.com/watch?v=4044rY_TG5A)
-
-[Lesson 3. Debugging  a program](https://www.youtube.com/watch?v=nnIGX-z1Qck)
 
 ## License
 

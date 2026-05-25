@@ -37,9 +37,6 @@
        [ui/label "Calculate Area"]]
      [gui/label-state "Area = " @*area]]])
 
-
-
-  
 (defn -main [& args]
   (ui/start-app!
     (win/set-window-size 
