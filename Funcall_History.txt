@@ -1,3 +1,2 @@
-(-main)
-(in-ns 'hu.triar.core)
-(-main)
+(* 2 3)
+null
