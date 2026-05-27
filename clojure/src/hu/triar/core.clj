@@ -3,9 +3,8 @@
   (:require 
     [io.github.humbleui.ui :as ui]
     [io.github.humbleui.window :as win]
-    [io.github.humbleui.signal :as sig]
-    [hu.triar.gui :as gui]
-    [ru.triar.logic :as lg]))
+    [hu.triar.logic :as lg]
+    [hu.triar.gui :as gui]))
 
 (def *state-a
   (ui/signal {:text ""}))
@@ -16,27 +15,27 @@
 (def *state-c
   (ui/signal {:text ""}))
   
-(def *area 
-  (ui/signal {:text ""}))
+(def *area
+  (ui/signal 0))
 
 (ui/defcomp app []
   [ui/center
     [ui/column {:gap 20}
-     [gui/header1 "Triangle Area"]
-     [gui/header2 "Triangle sides:"]
+     [ui/label {:font-weight :bold
+                :font-size 20} "Triangle Area"]
+     [ui/label {:font-slant :italic} "Triangle sides:"]
      [gui/label-field "Side a: " *state-a]
      [gui/label-field "Side b: " *state-b]
      [gui/label-field "Side c: " *state-c]
-     [gui/header2 "Triangle Area"]
+     [ui/label {:font-slant :italic} "Triangle area:"]
      [ui/button {:style :default
-       :on-click (fn[e] (sig/reset! *area
-         (lg/calc-area 
-            (read-string (@*state-a :text))
-            (read-string (@*state-b :text))
-            (read-string (@*state-c :text)))))}
+       :on-click (fn [_] (reset! *area
+         (lg/calc-area (read-string (:text @*state-a))
+            (read-string (:text @*state-b))
+            (read-string (:text @*state-c)))))}
        [ui/label "Calculate Area"]]
-     [gui/label-state "Area = " @*area]]])
-
+     [ui/label {} (str "Area = " @*area)]]])
+  
 (defn -main [& args]
   (ui/start-app!
     (win/set-window-size 

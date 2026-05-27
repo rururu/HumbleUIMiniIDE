@@ -1,10 +1,2 @@
-(-main)
 (in-ns 'hu.triar.core)
 (-main)
-(in-ns 'examples.sand)
-(in-ns 'hu.triar.core)
-(-main)
-(in-ns 'hu.triar.core)
-(-main)
-(in-ns 'hu.triar.core)
-null
