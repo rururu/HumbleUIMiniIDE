@@ -41,7 +41,7 @@ add the corresponding prefixes to separate lines in this file.
 
 [Lesson 1. HumbleUI Examples](https://www.youtube.com/watch?v=aVcTWrnw5Wg)
 
-[Lesson 2. Simple Program]( https://youtu.be/1GceJ_KvfRA )
+[Lesson 2. Simple Program](https://www.youtube.com/watch?v=1GceJ_KvfRA)
 
 ## License
 
