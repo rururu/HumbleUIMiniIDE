@@ -1,5 +1,5 @@
 ;; text_field.clj
-(ns examples.text_field
+(ns examples.text-field
   (:require
     [io.github.humbleui.util :as util]
     [io.github.humbleui.signal :as signal]

@@ -1,2 +1,2 @@
 ;; text-field.prg
-examples.text_field
+examples.text-field
